@@ -50,13 +50,13 @@ export default function TeamPage() {
       name: "Mr. Akhil Reddy Anthamgari",
       role: "Project Client",
       description: "Associate Client and a Software Engineer guiding us through the project.",
-      imageUrl: "/akhil2.jpeg" // Ensure this image is in the public folder
+      imageUrl: "/akhil.jpeg"
     },
     {
       name: "Dr. Raghu Reddy",
       role: "Professor",
       description: "Professor specializing in Virtual Lab systems and Software Development Life cycle at IIIT Hyderabad.",
-      imageUrl: "/raghureddy.jpeg" // Ensure this image is in the public folder
+      imageUrl: "/raghureddy.jpeg"
     }
   ];
 
@@ -82,13 +82,13 @@ export default function TeamPage() {
       name: "Aryanil Panja",
       role: "Research & VROOM",
       description: "Researched on VROOM and layed foundational codes for VROOM implementation.",
-      imageUrl: "aryanil3.jpeg"
+      imageUrl: "aryanil.jpeg"
     },
     {
       name: "Aviral Gupta",
       role: "Coordination & Frontend",
       description: "Managed team coordination and key role in developing the frontend of the project.",
-      imageUrl: "aviral3.jpeg"
+      imageUrl: "aviral.jpeg"
     },
     {
       name: "Satvik Rao",

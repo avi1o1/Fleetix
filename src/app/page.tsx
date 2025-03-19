@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
+import Image from 'next/image'
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
@@ -103,11 +104,12 @@ export default function Home() {
           </div>
           <div className="mt-12 lg:mt-0 lg:flex-shrink-0">
             <div className={`w-full h-80 sm:h-96 lg:h-[28rem] ${isDarkMode ? 'bg-gray-800' : 'bg-gray-200'} rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-all duration-300`}>
-              {/* TODO: Replace with actual image in production */}
               <div className={`w-full h-full flex items-center justify-center ${isDarkMode ? 'bg-opacity-50 bg-gray-700' : 'bg-opacity-50 bg-gray-300'}`}>
-                <svg className="w-[33vw] h-40 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"></path>
-                </svg>
+                <img
+                  src="map.png"
+                  alt="Map"
+                  className="h-full w-full object-cover"
+                />
               </div>
             </div>
           </div>
