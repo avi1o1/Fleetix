@@ -74,32 +74,32 @@ export default function TeamPage() {
   const developerMembers = [
     {
       name: "Akshita",
-      role: "Geocoding",
-      description: "Overlooked on how to geocode locations, helped in implementation of routing.",
+      role: "Routing & Optimisation",
+      description: "Implemented many-to-one and many-to-many routing and optimisation using OSRM",
       imageUrl: "akshita.jpeg"
     },
     {
       name: "Aryanil Panja",
-      role: "Routing",
-      description: "Overlooked on setting/managing Github , how to use OSRM,OSM data with VROOM and helped in making a webpage.",
+      role: "Research & VROOM",
+      description: "Researched on VROOM and layed foundational codes for VROOM implementation.",
       imageUrl: "aryanil3.jpeg"
     },
     {
       name: "Aviral Gupta",
-      role: "Frontend Management",
-      description: "Crafts responsive and user-friendly interfaces for the Fleetix web application and team coordination.",
+      role: "Coordination & Frontend",
+      description: "Managed team coordination and key role in developing the frontend of the project.",
       imageUrl: "aviral3.jpeg"
     },
     {
       name: "Satvik Rao",
-      role: "Routing",
-      description: "Manages database and helped in VROOM integration.",
+      role: "Documentation & Backend",
+      description: "Managed key documentation like Status trackers and contributed to backend initialisation.",
       imageUrl: "satvik.jpeg"
     },
     {
       name: "Sherley",
-      role: "OSRM/OSM data Research",
-      description: "Overlooked on how OSM/OSRM can be used and helped in making a webpage.",
+      role: "Market Reseach & Documentation",
+      description: "Researched on current market solutions and technologies. Also, helped in creating visual diagrams for documentation.",
       imageUrl: "sherley.jpeg"
     }
   ];

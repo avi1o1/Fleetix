@@ -45,11 +45,11 @@ export default function About() {
         <div className={`py-20 transition-colors duration-300`}>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mt-10">
-                <h1 className={`text-4xl font-extrabold tracking-tight ${isDarkMode ? 'text-white' : 'text-gray-900'} sm:text-5xl lg:text-7xl transition-colors duration-300`}>
+                <h1 className={`text-4xl font-extrabold tracking-tight ${isDarkMode ? 'text-white' : 'text-gray-900'} text-5xl md:text-7xl transition-colors duration-300`}>
                 About <span className="text-green-500">Fleetix</span>
                 </h1>
                 <p className={`mt-8 text-2xl max-w-4xl mx-auto ${isDarkMode ? 'text-gray-300' : 'text-gray-500'} transition-colors duration-300`}>
-                We're a team of passionate developers working to revolutionize employee transportation management through innovative technology.
+                We&apos;re a team of passionate developers working to revolutionize employee transportation management through innovative technology.
                 </p>
             </div>
             </div>
@@ -60,11 +60,11 @@ export default function About() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
                 <div>
-                <h2 className={`text-5xl font-extrabold tracking-tight ${isDarkMode ? 'text-white' : 'text-gray-900'} transition-colors duration-300`}>
+                <h2 className={`text-3xl md:text-5xl font-extrabold tracking-tight ${isDarkMode ? 'text-white' : 'text-gray-900'} transition-colors duration-300`}>
                     Our Mission
                 </h2>
                 <p className={`mt-4 text-xl ${isDarkMode ? 'text-gray-300' : 'text-gray-500'} transition-colors duration-300 text-justify`}>
-                    At Fleetix, we're committed to solving the complex challenges of employee transportation management. Our mission is to provide a comprehensive platform that optimizes routes, reduces costs, and improves the overall experience for both employers and employees.
+                    At Fleetix, we&apos;re committed to solving the complex challenges of employee transportation management. Our mission is to provide a comprehensive platform that optimizes routes, reduces costs, and improves the overall experience for both employers and employees.
                 </p>
                               <p className={`mt-4 text-xl ${isDarkMode ? 'text-gray-300' : 'text-gray-500'} transition-colors duration-300 text-justify`}>
                     We believe that efficient transportation management not only saves companies money but also contributes to employee satisfaction and environmental sustainability by reducing carbon emissions through optimized routes.
